@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{BD73262B-4F06-41CA-A8E6-EE6D7B03DD6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocadoraS2IT.WebTests", "LocadoraS2IT.WebTests\LocadoraS2IT.WebTests.csproj", "{1B9A0BCD-27FE-4D9F-A640-9A63A3C159B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocadoraS2IT.WebTests", "WebTests\LocadoraS2IT.WebTests.csproj", "{1B9A0BCD-27FE-4D9F-A640-9A63A3C159B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

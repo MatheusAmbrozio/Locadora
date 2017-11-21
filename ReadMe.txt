@@ -1,5 +1,5 @@
 ﻿***ConnextionString está no diretorio***
-	LMF.TicketMania.Shared.Runtime
+	LocadoraS2IT.Shared.Runtime
 
 ***Comandos Migrations***
 
