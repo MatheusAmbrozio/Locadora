@@ -16,7 +16,7 @@
 
 ***Iniciando o projeto***
 	-Primeiro voce deve configurar a Connection String valida para o banco se gerado.
-	-Rodar Comandos do Migration
+	-Rodar Comandos do Migration no Package Manager Console da Camada de DATA
 	-Rodar no banco criado o Script que esta dentro do repositorio com o nome 'LOCADORAS2ITCREATEMASTER'
 	-Logar com o Usuario Inicial
 

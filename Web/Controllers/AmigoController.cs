@@ -13,7 +13,7 @@ using Microsoft.AspNet.Identity.Owin;
 
 namespace LocadoraS2IT.Web.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class AmigoController : Controller
     {
         private readonly IAmigoBusiness _business;

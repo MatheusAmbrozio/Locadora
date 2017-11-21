@@ -9,7 +9,7 @@ namespace LocadoraS2IT.Data.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(LocadoraS2IT.Data.Contexts.LocadoraS2ITDataContext context)

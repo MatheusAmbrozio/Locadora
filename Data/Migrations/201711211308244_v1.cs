@@ -15,6 +15,7 @@ namespace LocadoraS2IT.Data.Migrations
                         Nome = c.String(nullable: false, maxLength: 160),
                         Apelido = c.String(),
                         Idade = c.Int(nullable: false),
+                        Email = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
             
@@ -23,8 +24,6 @@ namespace LocadoraS2IT.Data.Migrations
                 c => new
                     {
                         Id = c.Guid(nullable: false),
-                        DataEmprestimo = c.DateTime(nullable: false),
-                        DataDevolucao = c.DateTime(nullable: false),
                         Amigo_Id = c.Guid(),
                         Jogo_Id = c.Guid(),
                     })
@@ -40,10 +39,10 @@ namespace LocadoraS2IT.Data.Migrations
                     {
                         Id = c.Guid(nullable: false),
                         Nome = c.String(nullable: false, maxLength: 50),
-                        Genero_Id = c.Guid(),
+                        Genero_Id = c.Guid(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Genero", t => t.Genero_Id)
+                .ForeignKey("dbo.Genero", t => t.Genero_Id, cascadeDelete: true)
                 .Index(t => t.Genero_Id);
             
             CreateTable(
